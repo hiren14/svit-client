@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/svit-client/static/css/main.b5d361f2.css",
-    "main.js": "/svit-client/static/js/main.878e798a.js",
-    "static/js/787.38fa2b86.chunk.js": "/svit-client/static/js/787.38fa2b86.chunk.js",
-    "static/media/teacher.png": "/svit-client/static/media/teacher.5329d36e955e1c8e309a.png",
-    "static/media/student.png": "/svit-client/static/media/student.82eabcab0d03c86c68f6.png",
-    "index.html": "/svit-client/index.html",
-    "main.b5d361f2.css.map": "/svit-client/static/css/main.b5d361f2.css.map",
-    "main.878e798a.js.map": "/svit-client/static/js/main.878e798a.js.map",
-    "787.38fa2b86.chunk.js.map": "/svit-client/static/js/787.38fa2b86.chunk.js.map"
+    "main.css": "/static/css/main.b5d361f2.css",
+    "main.js": "/static/js/main.245294f0.js",
+    "static/js/787.38fa2b86.chunk.js": "/static/js/787.38fa2b86.chunk.js",
+    "static/media/teacher.png": "/static/media/teacher.5329d36e955e1c8e309a.png",
+    "static/media/student.png": "/static/media/student.82eabcab0d03c86c68f6.png",
+    "index.html": "/index.html",
+    "main.b5d361f2.css.map": "/static/css/main.b5d361f2.css.map",
+    "main.245294f0.js.map": "/static/js/main.245294f0.js.map",
+    "787.38fa2b86.chunk.js.map": "/static/js/787.38fa2b86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5d361f2.css",
-    "static/js/main.878e798a.js"
+    "static/js/main.245294f0.js"
   ]
 }
