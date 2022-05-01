@@ -1,4 +1,5 @@
 import React from "react";
+import { HashRouter as Router } from 'react-router-dom'
 
 // custom pages
 import BasePage from "./pages/BasePage";
@@ -25,7 +26,7 @@ const App = () => {
 
   return (
     <div className="w-screen h-screen ">
-      <BrowserRouter>
+      <Router>
         <Routes>
             <Route path='/' element={<BasePage updateRole={updateRole}/>}></Route>
             <Route path='/login' element={<Login role={role}/>}></Route>
@@ -38,7 +39,7 @@ const App = () => {
             <Route path='/createroom' element={<CreateRoom />}></Route>
             <Route path='/roomlist' element={<RoomList/>}></Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   )
 }
