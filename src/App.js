@@ -28,16 +28,16 @@ const App = () => {
     <div className="w-screen h-screen ">
       <Router>
         <Routes>
-            <Route path='https://hiren14.github.io/svit-client/' element={<BasePage updateRole={updateRole}/>}></Route>
-            <Route path='https://hiren14.github.io/svit-client/login' element={<Login role={role}/>}></Route>
-            <Route path='https://hiren14.github.io/svit-client/register' element={<Register/>}></Route>
-            <Route path='https://hiren14.github.io/svit-client/student' element={<StudentPage/>}></Route>
-            <Route path='https://hiren14.github.io/svit-client/joinroom' element={<JoinRoom/>}></Route>
-            <Route path='https://hiren14.github.io/svit-client/form' element={<Form updateHappinessIndex={updateHappinessIndex}/>}></Route>
-            <Route path='https://hiren14.github.io/svit-client/result' element={<ResultPage hIndex={happinessIndex}/>}></Route>
-            <Route path='https://hiren14.github.io/svit-client/teacherpage' element={<TeacherPage />}></Route>
-            <Route path='https://hiren14.github.io/svit-client/createroom' element={<CreateRoom />}></Route>
-            <Route path='https://hiren14.github.io/svit-client/roomlist' element={<RoomList/>}></Route>
+            <Route path='/' element={<BasePage updateRole={updateRole}/>}></Route>
+            <Route path='/login' element={<Login role={role}/>}></Route>
+            <Route path='/register' element={<Register/>}></Route>
+            <Route path='/student' element={<StudentPage/>}></Route>
+            <Route path='/joinroom' element={<JoinRoom/>}></Route>
+            <Route path='/form' element={<Form updateHappinessIndex={updateHappinessIndex}/>}></Route>
+            <Route path='/result' element={<ResultPage hIndex={happinessIndex}/>}></Route>
+            <Route path='/teacherpage' element={<TeacherPage />}></Route>
+            <Route path='/createroom' element={<CreateRoom />}></Route>
+            <Route path='/roomlist' element={<RoomList/>}></Route>
         </Routes>
       </Router>
     </div>
